@@ -1,0 +1,63 @@
+.btn-back{
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+    position: absolute;
+    z-index: 101;
+    color: rgb(22, 183, 86);
+    font-family: "Poppins";
+    font-weight: 600;
+    background-color: #222;
+
+    margin-left: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: 0.5s;
+    padding: 5px;
+    text-decoration: none;
+    text-align: center;
+}
+.btn-back:hover{
+    background-color: #f1f1f1;
+}
+.btn-back i{
+    padding: 5px 10px;
+}
+.testimonials {
+    padding: 20px;
+    background-color: #f1f1f1;
+}
+
+.testimonials h2 {
+    text-align: center;
+    color: rgb(31, 145, 76);
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.testimonial {
+    margin: 20px 0;
+    padding: 15px;
+    background-color: white;
+    border-left: 5px solid rgb(31, 145, 76);
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.1);
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+
+
+/* Class to trigger animation */
+.animate-on-scroll.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+@media (max-width:768px) {
+    .btn-back{
+        font-size: 14px;
+    }
+}
