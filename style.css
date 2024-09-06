@@ -1374,6 +1374,14 @@ main{
 
 
 @media (max-width: 768px) and (max-height : 380px){
+    .btn-top{
+        width: 30px;
+        height: 30px;
+        font-size: 12px;
+        right: 10px;
+        bottom: 10px;
+        z-index: 99999;
+    }
     .arrows {
        left: 40%;
     }
@@ -1383,6 +1391,14 @@ main{
 
 
 @media (max-width: 768px) and (max-height : 900px){
+    .btn-top{
+        width: 30px;
+        height: 30px;
+        font-size: 12px;
+        right: 10px;
+        bottom: 10px;
+        z-index: 99999;
+    }
     .navbar.active{
         position: absolute;
         background-color: rgba(0, 0, 0, 0.908);
